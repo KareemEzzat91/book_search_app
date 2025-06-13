@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import '../../features/books/presentation/pages/home_page.dart';
 import '../../features/favorites/presentation/pages/favorites_page.dart';
-import '../../features/settings/presentation/screens/settings_screen.dart';
+import '../../features/settings/presentation/pages/settings_page.dart';
 
 class AppRouter {
   static final GoRouter router = GoRouter(
@@ -21,7 +21,7 @@ class AppRouter {
       GoRoute(
         path: '/settings',
         name: 'settings',
-        builder: (context, state) => const SettingsScreen(),
+        builder: (context, state) => const SettingsPage(),
       ),
     ],
     errorBuilder: (context, state) => Scaffold(
