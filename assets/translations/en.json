@@ -1,0 +1,20 @@
+{
+  "BookSearch": "Book Search",
+  "SearchBooks": "Search books...",
+  "startSearching": "Start searching for books...",
+  "noBooksFound": "No books found",
+  "favorites": "Favorites",
+  "noFavorites": "No favorite books yet",
+  "error": "Error",
+  "pageNotFound": "Page not found",
+  "authors": "Authors",
+  "description": "Description",
+  "addToFavorites": "Add to favorites",
+  "removeFromFavorites": "Remove from favorites",
+  "settings": "Settings",
+  "theme": "Theme",
+  "language": "Language",
+  "system": "System",
+  "light": "Light",
+  "dark": "Dark"
+} 

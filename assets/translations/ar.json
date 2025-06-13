@@ -1,0 +1,20 @@
+{
+  "BookSearch": "ابحث عن كتاب",
+  "SearchBooks": "ابحث عن كتب ...",
+  "startSearching": "ابدأ البحث عن الكتب...",
+  "noBooksFound": "لم يتم العثور على كتب",
+  "favorites": "المفضلة",
+  "noFavorites": "لا توجد كتب مفضلة بعد",
+  "error": "خطأ",
+  "pageNotFound": "الصفحة غير موجودة",
+  "authors": "المؤلفون",
+  "description": "الوصف",
+  "addToFavorites": "إضافة إلى المفضلة",
+  "removeFromFavorites": "إزالة من المفضلة",
+  "settings": "الإعدادات",
+  "theme": "المظهر",
+  "language": "اللغة",
+  "system": "النظام",
+  "light": "فاتح",
+  "dark": "داكن"
+} 
