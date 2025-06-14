@@ -24,7 +24,7 @@ class SettingsPage extends StatelessWidget {
             end: Alignment.bottomCenter,
             colors: [
               Theme.of(context).scaffoldBackgroundColor,
-              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
+              Theme.of(context).scaffoldBackgroundColor,
             ],
           ),
         ),
@@ -45,7 +45,7 @@ class SettingsPage extends StatelessWidget {
                   leading: Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: AppColors.primary.withOpacity(0.1),
+                      color: AppColors.primary,
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: Icon(
@@ -77,8 +77,7 @@ class SettingsPage extends StatelessWidget {
                         final themeProvider = context.read<ThemeProvider>();
                         themeProvider.setThemeMode(ThemeMode.dark);
                       } else {
-                        final themeProvider =
-                            context.read<ThemeProvider>();
+                        final themeProvider = context.read<ThemeProvider>();
                         themeProvider.setThemeMode(ThemeMode.light);
                       }
                     },
@@ -104,7 +103,7 @@ class SettingsPage extends StatelessWidget {
                       leading: Container(
                         padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
-                          color: AppColors.primary.withOpacity(0.1),
+                          color: AppColors.primary,
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: const Icon(Icons.language,
@@ -172,8 +171,8 @@ class SettingsPage extends StatelessWidget {
       trailing: isSelected
           ? Container(
               padding: const EdgeInsets.all(4),
-              decoration: BoxDecoration(
-                color: AppColors.primary.withOpacity(0.1),
+              decoration:const BoxDecoration(
+                color: AppColors.primary,
                 shape: BoxShape.circle,
               ),
               child: const Icon(
